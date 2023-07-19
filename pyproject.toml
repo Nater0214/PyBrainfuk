@@ -1,0 +1,15 @@
+[project]
+name = "pybrainfuk"
+authors = [{name = "Nater0214", email = "gamer@nater0214.com"}]
+version = "0.0.0"
+requires-python = ">=3.10"
+license = {file = "LICENSE.txt"}
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
+
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
