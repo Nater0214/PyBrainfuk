@@ -5,6 +5,9 @@ version = "0.0.0"
 requires-python = ">=3.10"
 license = {file = "LICENSE.txt"}
 readme = "README.md"
+dependencies = [
+    "naters-utils"
+]
 
 [project.optional-dependencies]
 dev = [
