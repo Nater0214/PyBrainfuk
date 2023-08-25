@@ -1,7 +1,7 @@
 [project]
 name = "brainfuk"
 authors = [{name = "Nater0214", email = "gamer@nater0214.com"}]
-version = "0.0.1"
+version = "0.0.2"
 requires-python = ">=3.10"
 license = {file = "LICENSE.txt"}
 readme = "README.md"
