@@ -271,14 +271,17 @@ def main(f: str, e: str, l: int) -> None:
         interpret(e, memory, l)
 
 
-# Run
-if __name__ == "__main__":
+def cmd_run() -> None:
     # Parse arguments
     parser = argparse.ArgumentParser(description="PyBrainfuck interpreter")
     parser.add_argument("-f", help="File to interpret", type=str, default=None)
     parser.add_argument("-e", help="Evaluate a string", type=str, default=None)
     parser.add_argument("-l", help="Set the loop limit", type=int, default=1000)
     args = parser.parse_args()
-
-    # Run main function
+    
     main(**args.__dict__)
+
+
+# Run
+if __name__ == "__main__":
+    cmd_run()

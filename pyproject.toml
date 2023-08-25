@@ -10,7 +10,7 @@ dependencies = [
 ]
 
 [project.scripts]
-pybf = "brainfuk.pybf:main"
+pybf = "brainfuk.pybf:cmd_run"
 
 [project.optional-dependencies]
 dev = [
